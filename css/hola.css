@@ -1,0 +1,52 @@
+.iconsito50 {
+    max-width: 40px; 
+    max-height: 40px;
+    margin-left: 5px;
+}
+
+.huellalogin {
+    max-width: 40px; 
+    max-height: 40px;
+    margin-right: 30px;
+}
+
+.logindi {
+  margin-top: 5rem;
+}
+
+.logregi {
+  width: 188px;
+}
+
+.botonlogin {
+  margin-top: 2.5rem;
+}
+
+.fecNac{
+  color: #777;
+  margin-top: -5px;
+  text-align: left;
+}
+
+.colorFondoLogo {
+  background: #d32f2f ;
+  color:white;
+}
+
+.fondoBlanco {
+  background-image: url("/img/fndblanco.png");
+}
+
+.colorLogo {
+  color: #d32f2f ;
+}
+
+.colorLogoOb
+  color: #ad1457;
+}
+
+/*
+#d32f2f red darken-2
+y
+#ad1457 pink darken-3
+*/
