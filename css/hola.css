@@ -7,18 +7,22 @@
 .huellalogin {
     max-width: 40px; 
     max-height: 40px;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .logindi {
   margin-top: 5rem;
 }
 
-.logregi {
+.btnmedidaini {
   width: 188px;
 }
 
-.botonlogin {
+.btnmedida {
+  width: 150px;
+}
+
+.longdef {
   margin-top: 2.5rem;
 }
 
@@ -31,10 +35,6 @@
 .colorFondoLogo {
   background: #d32f2f ;
   color:white;
-}
-
-.fondoBlanco {
-  background-image: url("/img/fndblanco.png");
 }
 
 .colorLogo {
@@ -50,3 +50,31 @@
 y
 #ad1457 pink darken-3
 */
+
+.donut-container {
+	width: 150px;
+	height: 150px;
+	float: left;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	border-radius: 75px;
+	margin-right: 20px;
+}
+
+.donut-inner {
+	width: 134px;
+	height: 134px;
+	position: relative;
+	top: 8px;
+	left: 8px;
+	background: #FFF;
+	-webkit-border-radius: 65px;
+	-moz-border-radius: 65px;
+	border-radius: 65px;
+}
+
+.donut-label {
+	line-height: 130px;
+	text-align: center;
+	font-size: 20px;
+}
