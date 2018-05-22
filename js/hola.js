@@ -8,7 +8,7 @@ $(document).ready(function(){
     }
   );
   // START OPEN
-  $('.button-collapse').sideNav('show');
+  //$('.button-collapse').sideNav('show');
     
     // MODAL ABRIR
        $('.modal').modal();
