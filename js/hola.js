@@ -12,6 +12,12 @@ $(document).ready(function(){
     
     // MODAL ABRIR
        $('.modal').modal();
+    
+
 });
 
-
+ 
+$(document).ready(function() {
+    $('select').material_select();
+});
+    

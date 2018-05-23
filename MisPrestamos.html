@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login </title>
+    
+        <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/hola.css"  media="screen,projection"/>
+    
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>    
+        <script type="text/javascript" src="js/hola.js"></script>
+    
+</head>
+
+<body class="white">
+    
+
+   <nav >
+     <div class="nav-wrapper colorFondoLogo ">
+              <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large">  <img src="img/hamburguesitaw.png" class="responsive-img hamburguesita">   </a>
+             
+                
+             
+              <ul class="side-nav colorFondoLogo darken-2" id="mobile-demo">
+
+
+                <li class="sidenav-header colorFondoLogo">
+
+                        <img src="img/logow.png" alt="" class="responsive-img logoMenu">
+
+                </li>
+                  
+                <li class="colorFondoLogo">
+                  <ul class="collapsible collapsible-accordion">  
+                            <li><a class="white-text " href="home.html">  
+                                 <img src="img/homew.png" alt="" class="responsive-img iconsitomenu">
+                                <span class="flow-text">Inicio</span></a></li>
+                            <li><a class="white-text " href="billetera.html">  
+                                 <img src="img/billeteraw.png" alt="" class="responsive-img iconsitomenu">
+                                <span class="flow-text">Billetera</span></a></li>
+                            <li><a class="white-text " href="misprestamos.html">  
+                                 <img src="img/miprestamo2w.png" alt="" class="responsive-img iconsitomenu">
+                                <span class="flow-text">Mis Préstamos</span></a></li>
+                            <li><a class="white-text " href="MiInversion.html" >  
+                                 <img src="img/misinversionesw.png" alt="" class="responsive-img iconsitomenu">
+                                <span class="flow-text">Mi Inversion</span></a></li>
+                            <li><a class="white-text " href="perfil.html">  
+                                 <img src="img/perfilw.png" alt="" class="responsive-img iconsitomenu">
+                                <span class="flow-text">Mi Perfil</span></a></li>
+                            <li><a class="white-text " href="#">  
+                                 <img src="img/ajustesw.png" alt="" class="responsive-img iconsitomenu">
+                                <span class="flow-text">Configuración</span></a></li>
+                            <li><a class="white-text " href="#">  
+                                 <img src="img/soportew.png" alt="" class="responsive-img iconsitomenu">
+                                <span class="flow-text">Ayuda</span></a></li>
+                            <li><a class="white-text " href="index.html">  
+                                 <img src="img/logoutw.png" alt="" class="responsive-img iconsitomenu">
+                                <span class="flow-text">Logout</span></a></li>                      
+                      
+                    </ul>
+                </li>
+            
+              </ul>
+
+            </div>
+          </nav>
+
+    
+   <div class="container">  
+          
+             
+             
+        <div class="longdef">
+
+            <div class="row">
+                <div class="col s12 center">                              
+                    <span class="flow-text"><font color="#FF6347"> <h2>15,000 Coin</h2></font></span>
+                    <h5 class="light center"> Total Deuda en Préstamos </h5>
+                    &nbsp;&nbsp;
+                  </div>   
+
+                    <div class="col s12 center">
+
+                        <div class=" center">                            
+                            <figure class="avatar ">
+                                <img  class="responsive-img " src="img/miprestamo2.png">
+                            </figure>
+                          </div>
+
+                           <a href="CrearPrestamo.html" class="waves-effect waves-light btn colorFondoLogo longdef">Solicitar Prestamo</a>
+                    </div>
+
+            </div>
+      </div>
+             
+        <div class="longdef">
+                         <div class="row">
+                        <h5 class="light left">  Mis Préstamos</h5>
+                            </div>
+       
+                <ul class="collapsible collection longdef">   
+                    <li>                      
+                      
+                  <div class="collapsible-header">
+                       <div class="collection-item avatar"> 
+                        <i class="material-icons circle green">filter_drama</i>
+                       <span class="title"><span class="flow-text">Pendiente: 10,000 Coin</span></span>
+                           <p>Deuda: No Vencida <br> </p>
+                       </div>
+                    
+                  </div>
+                  
+                 <div class="collapsible-body">
+
+                        <div class="row">
+                          <div class="col s12 center">
+                              <span class="title"> Total de Préstamo <b>10,000 Coin</b></span> <br>
+                               <span class="title"> Saldo Pendiente </span> <br>
+                              <span class="flow-text"><h2>5,000 Coin</h2></span>
+                               <p>Fecha Vencimiento: 26/05/21 <br>
+                                        <a href="../">Ver Cronograma Pago</a> &nbsp;                          
+                                </p>
+                                    <p class="range-field">
+                                     Interes: 11,5% 
+                                    </p>
+                              
+                                 <span class="flow-text">Cantidad de Meses:</span>  
+                                  <div class="row center valign">
+
+                                        <div id="meses" class="row halign center">
+                                            
+                                              <label class="white">
+                                                  <input type="radio" name="cantmeses">
+                                                  <span>06 meses</span>
+                                              </label>
+                                            <label class="white">
+                                                  <input type="radio" name="cantmeses">
+                                                  <span>12 meses</span>
+                                              </label>
+                                            <label class="white">
+                                                  <input type="radio" name="cantmeses" checked>
+                                                  <span>18 meses</span>
+                                              </label>
+                                            <label class="white">
+                                                  <input type="radio" name="cantmeses">
+                                                  <span>24 meses</span>
+                                            </label>
+                                        </div>                                      
+                                  </div>
+                              
+                              <div class="row right logindi">
+                                <div class="col s12">
+                                      <a href="CrearPrestamo.html" class="waves-effect waves-light red btn">Pagar</a>
+                                </div>
+                              </div>
+
+                              
+                          </div>
+                        </div>
+                    </div>
+                </li>
+   
+                  
+                  <li>                      
+                      
+                  <div class="collapsible-header">
+                       <div class="collection-item avatar"> 
+                        <i class="material-icons circle blue">filter_drama</i>
+                       <span class="title"><span class="flow-text">Pendiente: 5,000 Coin</span></span>
+                           <p>Deuda: No Vencida <br> </p>
+                       </div>
+                    
+                  </div>
+                  
+                 <div class="collapsible-body">
+
+                        <div class="row">
+                          <div class="col s12 center">
+                              <span class="title"> Total de Préstamo <b>10,000 Coin</b></span> <br>
+                               <span class="title"> Saldo Pendiente </span> <br>
+                              <span class="flow-text"><h2>5,000 Coin</h2></span>
+                               <p>Fecha Vencimiento: 26/05/21 <br>
+                                        <a href="../">Ver Cronograma Pago</a> &nbsp;                          
+                                </p>
+                                    <p class="range-field">
+                                     Interes: 11,5% 
+                                    </p>
+                              
+                                    <div class="row">
+                                        <div class="col s12 center">
+                                           <p class="left">Cantidad Cuotas: <br> </p>
+                                        </div>
+                                      <div class="col s3"> <a class="btn grey lighten-1 col s12">6 meses</a> </div>
+                                      <div class="col s3"> <a class="btn grey lighten-1 col s12">12 meses</a> </div>
+                                      <div class="col s3"> <a class="btn waves-light red col s12">18 meses</a>  </div>
+                                      <div class="col s3"> <a class="btn grey lighten-1 col s12">24 meses</a> </div>
+                                    </div>
+                              
+                              <div class="row right logindi">
+                                <div class="col s12">
+                                      <a href="CrearPrestamo.html" class="waves-effect waves-light red btn">Pagar</a>
+                                </div>
+                              </div>
+
+                              
+                          </div>
+                        </div>
+                    </div>
+                </li>
+
+              </ul>
+        </div>
+       
+       
+            <div class="row">
+                 <div class="col s12 center">
+                      <ul class="pagination">
+                        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                        <li class="active"><a href="#!">1</a></li>
+                        <li class="waves-effect"><a href="#!">2</a></li>
+                        <li class="waves-effect"><a href="#!">3</a></li>
+                        <li class="waves-effect"><a href="#!">4</a></li>
+                        <li class="waves-effect"><a href="#!">5</a></li>
+                        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                      </ul>
+            
+                </div>
+            </div>
+    </div>
+    
+  
+
+
+</body>
+
+</html>
+    
